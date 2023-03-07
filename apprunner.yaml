@@ -5,4 +5,6 @@ build:
     build:
       - npm i
 run:
-  command: PORT=8080 npm start
+  command: npm start
+  network:
+    port: 3000
