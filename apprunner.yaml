@@ -5,4 +5,4 @@ build:
     build:
       - npm i
 run:
-  command: npm run start:dev
+  command: PORT=8080 npm start
